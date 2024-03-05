@@ -30,7 +30,7 @@ class WeatherInfo {
                   weekday: "long",
                 }),
         temperature_day: day.temp.day,
-        temperature_night: day.temp.day,
+        temperature_night: day.temp.night,
         weather: day.weather[0].main,
       });
     });
